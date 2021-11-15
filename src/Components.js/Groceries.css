@@ -1,0 +1,81 @@
+.groceries-head{
+    font-size: 2rem;
+    text-align: center;
+    padding-top:2rem;
+    padding-bottom:3rem;
+}
+
+.groceries-info{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    margin:auto;
+  
+
+}
+
+.block{
+    width:400px;
+   
+
+    height:480px;
+    margin-right:1rem;
+    border-radius: 1rem;;
+    background-color:rgba(0, 0, 0, 0.027);
+}
+
+.block-text{
+    height:60%;
+    width:300px;
+    display:flex;
+    flex-direction: column;
+    margin-left:2rem;
+    margin-right:2rem;
+    justify-content: center;
+}
+.block-text h1{
+    color:rgba(0, 0, 0, 0.712);
+    padding-bottom:2rem;
+}
+
+.block img{
+    width:100%; 
+    height:190px;
+   
+}
+
+.groceries-button{
+    width:350px;
+    margin:auto;
+    margin-top:2rem;
+
+}
+
+.groceries-button button{
+    width:350px;
+    height:50px;
+    font-size:1rem;
+    font-weight: bolder;
+    background-color:rgb(10, 173, 10) ;
+    color:white;
+    border-radius: 1rem;;
+    border:none;
+}
+
+.groceries-button button:hover{
+    background-color:rgba(10, 173, 10, 0.836) ;
+}
+@media screen and (max-width:1300px){
+    .groceries-info{
+        /* display:flex;
+        justify-content: space-between;
+        width:500px;
+        margin:auto; */
+        width:95%;
+        overflow-x: scroll;
+        overflow-y: hidden;  
+         /* white-space: nowrap; */
+        
+   
+    }
+} 
